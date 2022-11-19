@@ -1,0 +1,447 @@
+/*==========GERAL====================================*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+/*==========NAV-BAR====================================*/
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgb(242, 91, 0);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 11rem;
+}
+
+#nav-bar li {
+  display: inline-block;
+  padding: 0.3rem 3rem;
+  background: white;
+  margin: 0.8rem 4rem;
+}
+
+/*
+The code for the logo.
+*/
+#header-img {
+  height: 9.5rem;
+  margin-left: 0.4rem;
+  margin-bottom: 0.5rem;
+  border-style: solid;
+  border-radius: 2rem;
+  border-color: black;
+  background: white;
+  padding: 0.5rem;
+  position: absolute;
+  left: 4.5rem;
+  top: 0.5rem;
+}
+
+#nav-bar a {
+  font-size: 2rem;
+  color: black;
+  text-decoration: none;
+}
+
+#nav-bar li:hover {
+  text-decoration: underline;
+}
+/*==========TITLE====================================*/
+/*
+  --title--
+   CSS code for the title and background.
+  */
+.title-container {
+  display: flex;
+  background-image: url(https://i.pinimg.com/originals/99/fe/86/99fe86357b5c44b9c3dd9fac72341e39.jpg);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 70rem;
+}
+
+.title {
+  background: rgb(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 1.6rem 60rem;
+  margin: 2rem 5rem;
+}
+
+.title h1 {
+  font-size: 6rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title h2 {
+  font-size: 2.5rem;
+  /*==========ABOUT US====================================*/
+  /*
+  --About Us-- 
+  CSS code for the container with information about your business.
+  */
+}
+.about-container {
+  background: rgb(28, 28, 28);
+  height: 62rem;
+  display: flex;
+}
+
+.about-container p {
+  font-size: 3.4rem;
+  color: white;
+  margin: 7rem 1.5rem 0 1.5rem;
+}
+
+.about-container h3 {
+  color: white;
+  margin: 4rem 0rem;
+  font-size: 4.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.box-p {
+  background: rgb(255, 140, 0);
+  margin-left: 35rem;
+  padding: 0.5rem 0rem;
+  width: 45rem;
+  height: 62rem;
+}
+
+.about-container iframe {
+  margin: 10rem 5rem;
+  border-style: none;
+  width: 76rem;
+  height: 41.5rem;
+}
+/*==========PRODUCT====================================*/
+/*
+--Product--
+This container I put the products, I can use a Grid style our Flexbox. In this example, I use Flexbox.
+*/
+.product-container {
+  margin-top: 100px;
+  background: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 28rem;
+  border-radius: 1.5rem;
+  min-height: 600px;
+  height: 100%;
+  padding-bottom: 1rem;
+  margin: 20px 50px;
+}
+
+.card h3 {
+  color: black;
+  font-size: 3rem;
+  margin: 1rem 1.5rem;
+}
+
+.card p {
+  font-size: 2rem;
+  margin: 1.5rem;
+}
+
+.card a {
+  margin-top: auto;
+  background-color: black;
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: auto 4rem 10px;
+  padding: 1rem;
+}
+
+.card-image {
+  background: lightblue;
+  height: 20rem;
+  border-radius: 1.5rem 1.5rem 0 0;
+  background-size: cover;
+}
+
+/*==========CARS====================================*/
+#car1 {
+  background-image: url(https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220603/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem17084096610.jpg?s=fill&w=552&h=414&q=60);
+}
+
+#car2 {
+  background-image: url(https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220607/honda-civic-2.0-16v-flexone-sport-4p-cvt-wmimagem00154711122.jpg?s=fill&w=552&h=414&q=60);
+}
+
+#car3 {
+  background-image: url('https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220629/volkswagen-passat-2.0-16v-tsi-bluemotion-gasolina-highline-4p-dsg-wmimagem18432809238.jpg?s=fill&w=552&h=414&q=60');
+}
+
+
+#car4 {
+  background-image: url(https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202206/20220611/bmw-330i-2.0-16v-turbo-gasolina-m-sport-automatico-wmimagem18331453943.jpg?s=fill&w=552&h=414&q=60);
+}
+/*==========CONTACT====================================*/
+.contact-container {
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/18/15/58/vw-1835506_960_720.jpg);
+  background-size: cover;
+  height: calc(100vh - 11rem);
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 11rem;
+  overflow-y: hidden;
+}
+
+.contact-background {
+  background: rgb(22, 22, 22, 0.9);
+  padding: 4rem;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container label {
+  display: block;
+  font-size: 2.6rem;
+  margin: 1rem 0;
+}
+
+.contact-container input {
+  padding: 0.5rem;
+  width: 45rem;
+  font-size: 20px;
+}
+
+.contact-container label,
+h2,
+h3 {
+  color: white;
+}
+
+.contact-container textarea {
+  font-size: 2rem;
+  padding: 0.5rem;
+  width: 45rem;
+  height: 20rem;
+}
+
+.contact-container h2 {
+  font-size: 3.6rem;
+}
+
+.contact-container h3 {
+  font-size: 2.4rem;
+}
+
+.contact-container button {
+  width: 45rem;
+  margin: 2.5rem 0 0 0;
+  padding: 1rem;
+}
+
+.contact-container .social-links {
+  display: flex;
+  gap: 1.6rem;
+  list-style: none;
+  justify-content: center;
+  margin-top: 3rem;
+}
+/*==========@media====================================*/
+/*
+@media for work width=1400px.
+*/
+@media all and (max-width: 1024px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-p {
+    background: rgb(255, 140, 0);
+    margin: 2rem 0;
+    padding: 0px 3rem 3rem 3rem;
+    width: auto;
+    height: auto;
+  }
+
+  .about-container iframe {
+    border-style: none;
+    width: 50rem;
+    height: 34rem;
+    margin: 3rem 0 0 0;
+  }
+}
+/*
+   we maked a @media that allows to your website work in a phone.
+  */
+@media all and (max-width: 600px) {
+  /*
+   @media for your nav bar.
+  */
+  #nav-bar {
+    flex-direction: column;
+    height: 15rem;
+  }
+  #header-img {
+    position: static;
+    height: 8rem;
+    margin-top: 0.5rem;
+  }
+  #nav-bar li {
+    display: inline-block;
+    padding: 0.3rem 1.5rem;
+    background: white;
+    margin: 0.8rem 0.5rem;
+  }
+  /*
+   @media for your title container.
+  */
+  .title {
+    padding: 6rem 10rem;
+    margin: 2rem 5rem;
+  }
+  /*
+   @media for your about container.
+  */
+  .about-container {
+    height: 75rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-p {
+    background: rgb(255, 140, 0);
+    margin-top: 1rem;
+    margin-left: 0px;
+    padding: 0px;
+    width: auto;
+    height: auto;
+  }
+  .about-container h3 {
+    color: white;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+  .about-container p {
+    font-size: 2.6rem;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  .about-container iframe {
+    border-style: none;
+    width: 37rem;
+    height: 28.5rem;
+    margin: 3rem 0 0 0;
+  }
+  .card {
+    margin: 2.5rem 1rem 0.5rem 1rem;
+    width: 36rem;
+  }
+  /*
+  @media for contact container.
+  */
+  .contact-container {
+    height: 70rem;
+    padding: 1rem;
+  }
+  .contact-background {
+    background: rgb(22, 22, 22, 0.9);
+    padding: 3rem;
+    margin: 1rem;
+  }
+  .contact-container input {
+    padding: 0.5rem;
+    width: 30rem;
+    font-size: 1.5rem;
+  }
+  .contact-container label {
+    display: block;
+    font-size: 2.6rme;
+    margin: 1rem 0;
+  }
+  .contact-container textarea {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 30rem;
+    height: 14rem;
+  }
+  .contact-container button {
+    width: 30rem;
+    margin: 2.5rem 0 0 0;
+    padding: 1rem;
+  }
+}
+
+.product-details {
+  background-color: rgb(105, 105, 105);
+  height: calc(100vh - 11rem);
+  margin-top: 11rem;
+}
+.product-details img {
+  max-width: 44rem;
+  max-height: 40rem;
+  margin: 2rem;
+}
+
+.product-details img {
+  border-radius: 0.4rem;
+}
+
+.product-details .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  flex-direction: column;
+}
+
+.product-details .info {
+  background-color: white;
+  padding: 1.5rem 2.5rem;
+  border-radius: 0.8rem;
+  margin: 0 6rem;
+}
+
+.product-details .info h2 {
+  color: black;
+  font-size: 3rem;
+}
+.product-details .info p {
+  color: black;
+  font-size: 2.1rem;
+  margin-top: 1.4rem;
+}
+.product-details .info li {
+  color: black;
+  font-size: 2.1rem;
+  margin-top: 1.4rem;
+}
+
+.btn-comprar {
+  padding: 0.6rem 1.4rem;
+  background-color: rgb(49, 49, 201);
+  color: white;
+  font-size: 2.1rem;
+  border-radius: 0.8rem;
+  text-decoration: none;
+}
