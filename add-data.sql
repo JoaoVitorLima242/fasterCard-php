@@ -1,0 +1,12 @@
+# create database fasterCar;
+
+#create table car (carID int not null, name varchar(10) not null, description varchar(1000) not null, brand varchar(30) not null, imageUrl varchar(500) not null );  
+
+#insert into car (carID, name, description, brand, imageUrl) values (1, 'Fusca', 'O carro era compacto, com motor traseiro radial de cinco cilindros (semelhante a motores aeronáuticos), 1 200 cc, e contava com uma carroceria aerodinâmica, para reduzir a potência necessária e o tamanho do motor.', 'Volkswagen', 'https://i0.wp.com/www.reparacaoautomotiva.com.br/wp-content/uploads/2021/06/VW_Ka%CC%88fer_Baujahr_1966-1-scaled.jpg?fit=1024%2C683&ssl=1');
+#insert into car (carID, name, description, brand, imageUrl) values (2, 'Passati', 'Ter um Passat GTS Pointer 88 em condição de novo tem um preço: exatos R$ 200 mil.', 'Volkswagen', 'https://www.pastorecc.com.br/site/photos/cars/1898/bg_FhDQECzN4XJQoISBcip2.jpeg');
+#insert into car (carID, name, description, brand, imageUrl) values (3, 'Kadete','Chevrolet Kadett é um automóvel fabricado pela Chevrolet entre 1989 e 1998.', 'Chevrolet', 'https://2.bp.blogspot.com/-hXgO_dmIyws/XDJ7hZB3iXI/AAAAAAAAREw/AV2lz9foqgM6P0Bv-q-pl3em_yb9ufWqgCLcBGAs/s1600/Chevrolet-Kadett%2B%25284%2529.jpeg');
+#insert into car (carID, name, description, brand, imageUrl) values (4, 'Chevette','No ano de 1983, o modelo conseguiu alcançar o primeiro lugar de vendas naquele ano.', 'Chevrolet', 'https://s2.glbimg.com/sSX8CBEyCamq359KPZ4HJUZ7ZT0=/0x0:620x413/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2020/w/M/WEfPp0RNOBta93pxckug/2018-10-05-chevette.jpg');
+#insert into car (carID, name, description, brand, imageUrl) values (5, 'Cadillac','A carroceria é perfeita  sem ferrugem, amassados ou riscos, sua estrutura é muito solida  e tem um ótimo alinhamento', 'Cadillac', 'https://i2.wp.com/thegarage.com.br/wp-content/uploads/2022/05/1952-Cadillac-conversivel-a-venda-the-garage-75-2400x1600.jpg?strip=info&w=1800');
+#insert into car (carID, name, description, brand, imageUrl) values (7, 'Camaro','Camaro do sor', 'Chevrolet', 'https://s2.glbimg.com/PqPPQ-men0qvcDkp37FxSWzYgQQ=/0x0:620x413/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2020/O/c/H06CbARCAMMs8AR9hNtg/2016-03-24-chevrolet-camaro-transformers-2010-1600x1200-wallpaper-01.png');
+
+# voce precis rodar esses comandos para ter os carros
